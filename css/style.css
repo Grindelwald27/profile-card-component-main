@@ -1,0 +1,46 @@
+body {
+	background: url(../images/bg-pattern-top.svg) left;
+	color: hsl(0, 0%, 59%);
+	background-color: hsl(185, 75%, 39%);
+	font-family: "Kumby Sans", sans-serif;
+	text-align: center;
+}
+
+#fundo {
+	background: url(../images/bg-pattern-bottom) right;
+}
+
+#container {
+	width: 300px;
+	background: white url(../images/bg-pattern-card.svg) repeat-x top;
+	margin: 100px auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 30px hsl(227, 10%, 46%);
+}
+
+img {
+	margin-top: 90px;
+	border: 6px solid white;
+	border-radius: 200px;
+}
+
+section {
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+span {
+	margin: 0px 5px 0px 10px;
+	color: black;
+	font-weight: bold;
+}
+
+section p{
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+footer p{
+	letter-spacing: 1px;
+	font-size: 0.7em;
+}
